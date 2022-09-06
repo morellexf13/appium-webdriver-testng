@@ -28,13 +28,13 @@ public abstract class TestBase {
 	public void setUpAppium() throws MalformedURLException {
 	
 		DesiredCapabilities caps = new DesiredCapabilities();
-		// caps.setCapability("deviceName", "Nokia 5.1 Plus");
+		// caps.setCapability("deviceName", "OnePlus 7 Pro");
 		// caps.setCapability("platformName", "Android");
-		// caps.setCapability("platformVersion", "11");
-		// caps.setCapability("udid", "PDAGAP68A0900729");
-		// caps.setCapability("app", "C:\\Users\\appti\\Documents\\GitHub\\apptim-demo-android-tests\\src\\test\\resources\\apps\\Apptim-Demo-v1.7-debug.apk");
-		// caps.setCapability("appPackage", "com.apptim.android");
-		// caps.setCapability("appActivity", "com.apptim.android.view.MainActivity");
+		// caps.setCapability("platformVersion", "10");
+		// caps.setCapability("udid", "DEVICE SERIAL");
+		// caps.setCapability("app", "PATH TO YOUR APP");
+		// caps.setCapability("appPackage", "PACKAGE NAME");
+		// caps.setCapability("appActivity", "ACTIVITY NAME");
 		
 		URL url = new URL("http://127.0.0.1:4723/wd/hub");
 ;
@@ -53,5 +53,3 @@ public abstract class TestBase {
     }
 
 }
-
-//mvn clean package -DskipTests=true
