@@ -16,7 +16,7 @@
     </div>
 
 
-### Create package
+### Create test package
 ```
 cd testng
 mvn clean package -DskipTests=true
