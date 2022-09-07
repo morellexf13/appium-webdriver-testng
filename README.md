@@ -10,7 +10,7 @@
   </h1>
   <sup>
     <br />
- Appium Selenium Webdriver Starter Boilerplate for TestNG</em>
+ Appium Selenium Webdriver Starter Boilerplate for TestNG. Create automated tests for devicefarm!</em>
     <br />
     <br />
     </div>
